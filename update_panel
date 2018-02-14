@@ -1,0 +1,70 @@
+
+<!DOCTYPE>
+<html>
+<head>
+<title> Update Panel</title>
+
+<link rel="stylesheet" href="styles/style.css" media="all" />
+ 
+</head>
+<body>
+<!--Main container stats here-->
+<div class="main_wrapper">
+ <!--header stats here-->
+
+ <!--Header ends here -->
+ 
+  <!--Naviagation bar starts here -->
+<div class="menubar">
+
+	
+
+		<div id="form"> 
+		<form method="get" action="results.php" enctype="multipart/form-data">
+		<input type="text" name="user_query" placeholder="Search a product"/>
+		<input type="submit" name="search" value="Search" />
+		</form>
+		
+		</div>
+
+
+
+</div>
+
+<!--Naviagation bar ends here-->
+
+  <!--Content wrapper starts here-->
+<div class="content_wrapper">
+<div id="sidebar" >
+
+<div id="sidebar_title"></div>
+
+<ul id="cats">
+
+<a href="update_book.php">Update</a>
+
+<ul>
+
+<div id="sidebar_title"></div>
+<ul id="cats">
+
+
+<ul>
+</div>
+
+<div id="content_area">
+<div id="products_box">
+
+</div>
+</div>
+ <!--Contenet wrapper ends here-->
+ 
+ 
+<div id="footer">
+<h2 style="text-allign:center; padding-top:30px">&copy; CSE370 project by Sabit, Farhad and Shafkat</h2>
+
+</div>
+
+<!--Main container ends here-->
+</body>
+</html>
